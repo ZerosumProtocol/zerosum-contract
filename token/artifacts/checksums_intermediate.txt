@@ -1,0 +1,1 @@
+3c98baa055e786a24c612350021b1f34b519c9f81cd175f9587bd5686c5aef4a  ./target/wasm32-unknown-unknown/release/token.wasm

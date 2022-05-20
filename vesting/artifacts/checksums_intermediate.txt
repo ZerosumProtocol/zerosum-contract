@@ -1,0 +1,1 @@
+33739af3fe7acd9e43a62e52104e45df1dcc68ac79db05cdba05eb729c168c19  vesting/target/wasm32-unknown-unknown/release/vesting.wasm

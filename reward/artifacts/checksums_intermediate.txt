@@ -1,0 +1,1 @@
+d0832c877081a9b40ba7214fb93c3842ce045213dfc750ec9178469235f92094  reward/target/wasm32-unknown-unknown/release/reward.wasm
