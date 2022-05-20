@@ -1,0 +1,1 @@
+4c82f47396bf9ca7344b334ef892e76d31805dd0bf4fa138c4b9245b61b2a32e  house/target/wasm32-unknown-unknown/release/house.wasm

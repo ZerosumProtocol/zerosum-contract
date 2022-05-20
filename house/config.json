@@ -1,0 +1,57 @@
+{
+  "name": "house",
+  "developer": {
+    "archwayd": {
+      "docker": true
+    },
+    "scripts": {
+      "test": "cargo unit-test",
+      "build": "cargo build",
+      "optimize": "cargo run-script optimize",
+      "wasm": "cargo wasm",
+      "query": "archwayd query wasm",
+      "tx": "archwayd tx wasm execute",
+      "accounts": "archwayd keys list"
+    },
+    "deployments": [
+      {
+        "type": "instantiate",
+        "chainId": "torii-1",
+        "codeId": 49305,
+        "address": "archway1m7lzwd0fvg8w5a4s5c9gtvjc207vfac8ftuh2e00relyda77zfvqheugax",
+        "admin": "archway1paz0mpxlxwkrjp8rhamafvnkjzgn9zttxln0vm"
+      },
+      {
+        "type": "create",
+        "chainId": "torii-1",
+        "codeId": 49305
+      }
+    ]
+  },
+  "network": {
+    "name": "torii",
+    "chainId": "zerosum-1",
+    "type": "testnet",
+    "fees": {
+      "feeDenom": "uarch"
+    },
+    "gas": {
+      "prices": "0.002uarch",
+      "mode": "auto",
+      "adjustment": "1.3"
+    },
+    "wasm": {
+      "bech32Hrp": "archway",
+      "archwayd": "0.0.4",
+      "configDir": ".archway",
+      "binary": "archwayd"
+    },
+    "urls": {
+      "rpc": {
+        "url": "http://34.64.196.228",
+        "port": 26657
+      },
+      "faucets": ["https://faucet.torii-1.archway.tech"]
+    }
+  }
+}
